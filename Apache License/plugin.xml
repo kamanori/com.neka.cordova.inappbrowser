@@ -26,8 +26,8 @@
     <description>Neka Cordova InAppBrowser Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,in,app,browser,inappbrowser</keywords>
-    <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git</repo>
-    <issue>https://issues.apache.org/jira/browse/CB/component/12320641</issue>
+    <repo>https://github.com/kamanori/com.neka.cordova.inappbrowser.git</repo>
+    <issue>https://www.neka.com</issue>
 
     <engines>
       <engine name="cordova" version=">=3.1.0" /><!-- Needs cordova/urlutil -->
@@ -40,7 +40,7 @@
         </js-module>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="InAppBrowser"> 
-                <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
+                <param name="android-package" value="com.neka.cordova.inappbrowser.InAppBrowser"/>
             </feature>
         </config-file>
 
@@ -73,7 +73,7 @@
         </js-module>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="InAppBrowser"> 
-                <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
+                <param name="android-package" value="com.neka.cordova.inappbrowser.InAppBrowser"/>
             </feature>
         </config-file>
 
