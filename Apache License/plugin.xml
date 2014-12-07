@@ -27,7 +27,7 @@
     <license>Apache 2.0</license>
     <keywords>cordova,in,app,browser,inappbrowser</keywords>
     <repo>https://github.com/kamanori/com.neka.cordova.inappbrowser.git</repo>
-    <issue>https://www.neka.com</issue>
+    <issue>https://github.com/kamanori/com.neka.cordova.inappbrowser/issues</issue>
 
     <engines>
       <engine name="cordova" version=">=3.1.0" /><!-- Needs cordova/urlutil -->
