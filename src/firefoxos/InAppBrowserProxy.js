@@ -150,8 +150,8 @@ var IABExecs = {
                 browserElem.goForward();
             }, false);
 
-            menu.appendChild(back);
-            menu.appendChild(forward);
+            //menu.appendChild(back);
+            //menu.appendChild(forward);
             menu.appendChild(close);
 
             browserWrap.appendChild(menu);

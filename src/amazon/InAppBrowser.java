@@ -16,10 +16,10 @@
        specific language governing permissions and limitations
        under the License.
 */
-package org.apache.cordova.inappbrowser;
+package com.neka.cordova.inappbrowser;
 
 import android.annotation.SuppressLint;
-import org.apache.cordova.inappbrowser.InAppBrowserDialog;
+import com.neka.cordova.inappbrowser.InAppBrowserDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -641,12 +641,12 @@ public class InAppBrowser extends CordovaPlugin {
                 inAppWebView.requestFocusFromTouch();
 
                 // Add the back and forward buttons to our action button container layout
-                actionButtonContainer.addView(back);
+               	actionButtonContainer.addView(back);
                 actionButtonContainer.addView(forward);
 
                 // Add the views to our toolbar
-                toolbar.addView(actionButtonContainer);
-                toolbar.addView(edittext);
+                //toolbar.addView(actionButtonContainer);
+                //toolbar.addView(edittext);
                 toolbar.addView(close);
 
                 // Don't add the toolbar if its been disabled

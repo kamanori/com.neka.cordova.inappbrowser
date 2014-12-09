@@ -32,14 +32,16 @@ Rectangle {
     Rectangle {
         border.color: "black"
         width: parent.width
-        height: urlEntry.height
+        height: closeButton.height
         color: "gray"
+/*
         TextInput {
             id: urlEntry
             width: parent.width - closeButton.width
             text: url1
             activeFocusOnPress: false
         }
+*/
         Image {
             id: closeButton
             width: height
@@ -57,7 +59,7 @@ Rectangle {
 
     WebView {
         width: parent.width
-        y: urlEntry.height
+        y: closeButton.height
         height: parent.height - y
         url: url1
         onLoadingChanged: {
