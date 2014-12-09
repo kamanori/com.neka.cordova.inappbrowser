@@ -19,7 +19,7 @@
 package com.neka.cordova.inappbrowser;
 
 import android.annotation.SuppressLint;
-import org.apache.cordova.inappbrowser.InAppBrowserDialog;
+import com.neka.cordova.inappbrowser.InAppBrowserDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
