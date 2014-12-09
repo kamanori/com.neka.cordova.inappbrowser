@@ -17,7 +17,7 @@
     under the License.
 -->
 
-# org.apache.cordova.inappbrowser
+# com.neka.cordova.inappbrowser
 
 This plugin provides a web browser view that displays when calling `window.open()`.
 
