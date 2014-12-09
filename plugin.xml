@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="com.neka.cordova.inappbrowser"
-      version="0.5.3">
+      version="0.5.4">
 
     <name>InAppBrowser</name>
     <description>Neka Cordova InAppBrowser Plugin</description>
